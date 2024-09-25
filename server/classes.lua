@@ -79,7 +79,7 @@ function new()
             self.players[id].group = newGroup
         end
 
-        return nil, 'Le joueur avec cet ID n\existe pas'
+        return nil, 'Le joueur avec cet ID n\'existe pas'
     end
 
     function self:GetPlayers()
